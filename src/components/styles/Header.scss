@@ -1,0 +1,9 @@
+$headerFontsize: 40px;
+$textcolor: #000;
+
+.header-container {
+    text-align: center;
+      color: $textcolor;
+  font-size: $headerFontsize;
+    padding: 20px;
+}

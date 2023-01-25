@@ -1,0 +1,53 @@
+$bgcolor: transparent;
+$bgcolorHover:rgba(255,255,255,0.7);
+$textcolor: #fff;
+$textcolorHover: #000;
+
+.sliderStyles {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.leftArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 32px;
+    font-size: 45px;
+    color: $textcolor;
+    z-index: 1;
+    cursor: pointer;
+    border: 0;
+    background: $bgcolor;
+    transition: 0.3s;
+    border-radius: 100%;
+    width: 61px;
+}
+
+.leftArrowStyles:hover {
+    background: $bgcolorHover;
+    color: $textcolorHover;
+}
+
+.rightArrowStyles {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 32px;
+    font-size: 45px;
+    color: $textcolor;
+    z-index: 1;
+    cursor: pointer;
+    border: 0;
+    background: $bgcolor;
+    transition: 0.3s;
+    border-radius: 100%;
+    width: 61px;
+}
+
+.rightArrowStyles:hover {
+    background: $bgcolorHover;
+    color: $textcolorHover;
+}
